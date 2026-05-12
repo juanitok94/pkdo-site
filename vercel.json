@@ -4,6 +4,11 @@
       "source": "/brewloyalty",
       "destination": "https://brew-loyalty-demo.vercel.app",
       "permanent": true
+    },
+    {
+      "source": "/haywoodanalytics",
+      "destination": "https://haywood-analytics.vercel.app",
+      "permanent": true
     }
   ]
 }
