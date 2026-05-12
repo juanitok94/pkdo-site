@@ -80,9 +80,9 @@ const products: Product[] = [
   {
     name: "Haywood Analytics",
     tagline: "Neighborhood business intelligence.",
-    status: "coming-soon",
-    href: null,
-    external: false,
+    status: "live",
+    href: "https://haywood-analytics.vercel.app",
+    external: true,
     Icon: BarChartIcon,
   },
 ];
