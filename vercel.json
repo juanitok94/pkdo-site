@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/brewloyalty",
+      "destination": "https://brew-loyalty-demo.vercel.app",
+      "permanent": true
+    }
+  ]
+}
