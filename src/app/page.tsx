@@ -161,16 +161,16 @@ export default function Home() {
             alt="Peachy Kean DevOps"
             style={{ height: "40px", width: "auto" }}
           />
-          <div className="flex items-center gap-4 sm:gap-6">
+          <div className="flex items-center gap-3 sm:gap-6">
             <a
               href="#products"
-              className="hidden sm:block text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
+              className="text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
             >
               Products
             </a>
             <a
               href="#about"
-              className="hidden sm:block text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
+              className="text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
             >
               About
             </a>
