@@ -59,16 +59,16 @@ export default function WorkPage() {
         {/* ── Hero ────────────────────────────────────── */}
         <section className="mx-auto max-w-[680px] px-5 pt-16 pb-14 sm:pt-24 sm:pb-20">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#bf5a38] mb-5">
-            Peachy Kean DevOps · Selected Work
+            Selected Work
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-[#3d3530] leading-[1.1] tracking-tight mb-6">
-            We help small professional firms and their clients turn messy
-            operational data into useful tools, reports, and workflows.
+            Turn messy operational data into useful tools.
           </h1>
           <p className="text-lg text-[#1a1410] opacity-65 leading-relaxed max-w-[520px]">
-            Each project follows the same lens: find where measurable business
-            value is leaking because systems, people, and data don&rsquo;t line
-            up — then close the gap and document the result.
+            We help small professional firms and their clients by finding where
+            measurable business value is leaking because systems, people, and
+            data don&rsquo;t line up — then close the gap and document the
+            result.
           </p>
         </section>
 

@@ -6,6 +6,7 @@ export type CaseStudy = {
   sector: string;
   category: string;
   showCpa: ShowCpa;
+  meta: string;
   situation: string;
   gap: string;
   built: string;
@@ -22,6 +23,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Specialty coffee roaster · Black Mountain / Arden, NC",
     category: "CRM + Lead-Intake Automation",
     showCpa: "yes",
+    meta: "A specialty coffee roaster serving Black Mountain and Arden, NC, whose inbound leads were arriving as raw emails and being re-keyed by hand.",
     situation:
       "Inbound leads arrived as raw, unstructured emails from the company's Atlas Branding WordPress contact form. Each one was re-keyed by hand into a CRM, with a person manually splitting the information into separate contact, organization, and deal records.",
     gap: "Every lead cost minutes of manual data entry and re-keying. Records were inconsistent, follow-up was slow, and the owner had no clean pipeline view — the value of each lead was leaking between the website and the CRM.",
@@ -46,6 +48,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Fine-art gallery · Downtown Asheville, NC",
     category: "RFM / RF$ Customer Analytics + Google Analytics",
     showCpa: "yes",
+    meta: "A fine-art gallery in downtown Asheville with an established collector base but no visibility into which customers actually drove revenue.",
     situation:
       "An established gallery with a base of collectors and buyers, but little visibility into which customers actually drove revenue, and no web analytics in place to connect online interest to sales.",
     gap: "Without segmentation, marketing and outreach were spread evenly instead of concentrated on the highest-value collectors. There was no way to see recency, frequency, or monetary value — or to spot high-value buyers going quiet.",
@@ -69,6 +72,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Guided fly fishing & outdoor outfitter · Pisgah Forest / Brevard, NC",
     category: "Analytics, SEO, SEM & Web Strategy",
     showCpa: "maybe",
+    meta: "A guided fly fishing and outdoor outfitter in Pisgah Forest / Brevard, NC — a destination business that depends on travelers and locals finding them in search before they book a trip.",
     situation:
       "A WNC outfitter offering guided fly fishing and other outdoor experiences — a destination business that depends on travelers and locals finding them in search before they book a trip.",
     gap: "Qualified visitors were not converting to bookings at the rate the business could support: organic search visibility for high-intent queries was uneven, paid acquisition was not tightly measured, and the web strategy was not aligned to the actual buyer journey from discovery to inquiry.",
@@ -93,6 +97,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Asheville music & media platform",
     category: "Analytics + Email Marketing + CRM",
     showCpa: "maybe",
+    meta: "An Asheville music and media platform whose audience data, email marketing, and contact management lived in disconnected places with no analytics layer tying them together.",
     situation:
       "A local music and media organization whose audience data, email marketing, and contact management lived in disconnected places, with no analytics layer to measure what was working.",
     gap: "Content and outreach decisions were being made without data. Audience growth was hard to measure, email engagement was invisible, and there was no unified view of contacts.",
@@ -115,6 +120,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Nonprofit arts festival · WNC",
     category: "Multi-Event Scheduling Application",
     showCpa: "no",
+    meta: "A nonprofit arts festival in WNC running many events across many venues over multiple days, with scheduling coordinated through manual tools.",
     situation:
       "A large festival running many events across many venues over multiple days, with scheduling coordinated through manual tools.",
     gap: "Coordinating a multi-day, multi-venue, multi-event schedule by hand is error-prone and time-consuming, and leaves attendees and staff without a reliable single source of truth.",
@@ -137,6 +143,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     sector: "Independent cafe · West Asheville, NC",
     category: "Brew Loyalty — Digital Loyalty Platform",
     showCpa: "maybe",
+    meta: "An independent cafe in West Asheville that wanted customer loyalty without the cost of a custom app or the lost-card problem of paper punch cards.",
     situation:
       "An independent cafe wanting customer loyalty without the cost of a custom app or the hassle and lost-card problem of paper punch cards.",
     gap: "Paper punch cards get lost, capture zero customer data, and give the shop no way to re-engage customers. A native app is overkill and too expensive for an indie cafe.",
