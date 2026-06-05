@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CoffeeIcon = () => (
   <svg
     width="22"
@@ -168,6 +170,12 @@ export default function Home() {
             >
               Products
             </a>
+            <Link
+              href="/work"
+              className="text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
+            >
+              Work
+            </Link>
             <a
               href="#about"
               className="text-sm font-medium text-[#3d3530] hover:text-[#bf5a38] transition-colors"
