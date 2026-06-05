@@ -62,14 +62,10 @@ export default function WorkPage() {
             Selected Work
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-[#3d3530] leading-[1.1] tracking-tight mb-6">
-            Turn messy operational data into useful tools.
+            Small firms, real problems, fast builds. We love this work, we
+            create real value, and every client we&rsquo;ve worked with will
+            take your call.
           </h1>
-          <p className="text-lg text-[#1a1410] opacity-65 leading-relaxed max-w-[520px]">
-            We help small professional firms and their clients by finding where
-            measurable business value is leaking because systems, people, and
-            data don&rsquo;t line up — then close the gap and document the
-            result.
-          </p>
         </section>
 
         {/* ── Case Studies ────────────────────────────── */}

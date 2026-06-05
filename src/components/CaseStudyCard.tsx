@@ -108,13 +108,6 @@ export function CaseStudyCard({ study }: { study: CaseStudy }) {
             </div>
 
             <div>
-              <SectionLabel>Value word equation</SectionLabel>
-              <blockquote className="border-l-4 border-[#bf5a38] bg-[#ede8df] px-4 py-3 text-sm italic text-[#3d3530] leading-relaxed">
-                {study.equation}
-              </blockquote>
-            </div>
-
-            <div>
               <SectionLabel>Stack</SectionLabel>
               <p className="text-sm text-[#1a1410] opacity-75 leading-relaxed">
                 {study.stack}
